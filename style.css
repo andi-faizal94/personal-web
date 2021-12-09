@@ -1,0 +1,80 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title,
+p {
+  font-family: "Poppins", sans-serif;
+}
+.title-snack {
+  font-family: "Montserrat", sans-serif;
+  color: #1bea61;
+}
+nav {
+  background: #d8f0ff;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+  background: #d8f0ff;
+  height: 100vh;
+}
+
+#job {
+  padding: 1rem 1rem;
+  height: 100vh;
+}
+#getintouch {
+  padding: 1rem 1rem;
+  height: 100vh;
+}
+h1 {
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+.hero {
+  margin: 50px 0;
+}
+
+.ilustration {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 80%;
+  /* margin-bottom: 10px; */
+}
+.card {
+  margin: 10px 0;
+  margin-bottom: 20px;
+}
+
+.card-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+@media (max-width: 576px) {
+  .image-web {
+    display: flex;
+    flex-direction: column;
+  }
+  .getintouch {
+    margin-top: 20px;
+  }
+}
