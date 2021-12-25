@@ -2,12 +2,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.title,
-p {
-  font-family: "Poppins", sans-serif;
+.title {
+  font-family: "Source Sans Pro", sans-serif;
 }
 .title-snack {
-  font-family: "Montserrat", sans-serif;
   color: #1bea61;
 }
 nav {
